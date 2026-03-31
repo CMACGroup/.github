@@ -2,6 +2,7 @@ name: ✨ Feature / Task
 description: New feature or backlog task
 title: "[Feature]: "
 labels: ["enhancement"]
+type: "Feature"
 
 body:
   - type: textarea
