@@ -10,15 +10,6 @@ body:
       value: |
         Thanks for raising a bug. Please complete all sections.
 
-  - type: input
-    id: summary
-    attributes:
-      label: Summary
-      description: Short, clear description of the issue
-      placeholder: "Login fails when token expires"
-    validations:
-      required: true
-
   - type: textarea
     id: steps
     attributes:
@@ -34,13 +25,13 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behaviour
+      label: Acceptance Criteria
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Actual behaviour
+      label: Infosec Considerations
     validations:
       required: true
