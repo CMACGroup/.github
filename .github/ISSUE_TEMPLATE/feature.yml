@@ -24,4 +24,6 @@ body:
     id: infosec
     attributes:
       label: InfoSec Considerations
-      placeholder: Describe any information security considerations that should be taken in to account.
+      placeholder: Describe any information security considerations that should be taken in to account. If there are none, state "None identified" and why.
+    validations:
+      required: true
